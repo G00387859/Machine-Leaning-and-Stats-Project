@@ -25,6 +25,7 @@ def linear(name):
     name = name[1:len(name)-1]
     # covert to a integer
     name = int(name)
+    print("28",name)
     if name > 25:
         return {"value": findy(25)}
     if name <= 0:

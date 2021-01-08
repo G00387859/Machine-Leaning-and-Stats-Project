@@ -1,3 +1,4 @@
+# manual function to predict the y or f(x) value power of the input value speed of a wind turbine. 
 # Import linear_model from sklearn.
 import sklearn.linear_model as lm
 # Let's use pandas to read a csv file and organise our data.
@@ -29,5 +30,7 @@ a,b,c,d = np.polyfit(z,q,3)
 def findy(x):
     print('x =',x)
     y = (a*x**3) + (b*x**2) + (c*x) +d
+    if y < 0:
+        y = 0
     return '{:.2f}'.format(y)
 print('y = ', findy(10))
