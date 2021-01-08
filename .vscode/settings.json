@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "C:\\Users\\G00387859\\Anaconda3\\python.exe",
+    "python.linting.ignorePatterns": [
+        ".vscode/*.py",
+        "python.envFile\": \"${workspaceRoot}/.env",
+        "python.envFile\": \"${workspaceRoot}/.env"
+    ]
+}

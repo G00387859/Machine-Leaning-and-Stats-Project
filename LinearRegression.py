@@ -1,15 +1,15 @@
 # manual function to predict the y or f(x) value power of the input value speed of a wind turbine. 
 # Import linear_model from sklearn.
-import sklearn.linear_model as lm
+import matplotlib.pyplot as plt
+import numpy as np
 # Let's use pandas to read a csv file and organise our data.
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+import sklearn.linear_model as lm
+
 # read the dataset
 #df = pd.read_csv('https://raw.githubusercontent.com/ianmcloughlin/2020A-machstat-project/master/dataset/powerproduction.csv')
 df =pd.read_csv('powerproduction.csv') 
 # Plots styles.
-plt.style.use('ggplot')
 # Plot size.
 plt.rcParams['figure.figsize'] = (14, 10)
 # Create a linear regression model instance.
