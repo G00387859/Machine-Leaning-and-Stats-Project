@@ -1,7 +1,7 @@
 from flask import render_template,Flask, url_for, request, redirect, abort, jsonify,Response
 from LinearRegression import findy
 import numpy as np
-
+from metrics import metrics
 #form import find
 import sys
 app = Flask(__name__, static_url_path='', static_folder='staticpages')
