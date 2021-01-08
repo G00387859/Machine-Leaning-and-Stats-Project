@@ -1,1 +1,9 @@
 .docker
+.git
+Dockerfile
+.DS_Store
+.gitignore
+README.md
+__pycashe__/
+*py[cod]
+*$py.class

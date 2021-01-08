@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 # read the dataset
 #df = pd.read_csv('https://raw.githubusercontent.com/ianmcloughlin/2020A-machstat-project/master/dataset/powerproduction.csv')
-df =pd.read_csv('powerproduction.csv')
+df =pd.read_csv('powerproduction.csv') 
 # Plots styles.
 plt.style.use('ggplot')
 # Plot size.
