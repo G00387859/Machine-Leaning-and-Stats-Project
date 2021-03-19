@@ -77,7 +77,7 @@ d3.csv('powerproduction.csv', function (data) {
       .attr('x',w-250)
       .attr('dy','.71em')
       .style('text-anchor','end')
-      .text('speed')
+      .text('speed (KM/H)')
   // Y-axis
   svg.append('g')
       .attr('class', 'axis')
@@ -89,5 +89,5 @@ d3.csv('powerproduction.csv', function (data) {
       .attr('y',-100)
       .attr('dy','.71em')
       .style('text-anchor','center')
-      .text('power')
+      .text('power (W)')
 })

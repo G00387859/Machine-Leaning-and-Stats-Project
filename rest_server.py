@@ -6,15 +6,11 @@ from metrics import metrics
 import sys
 app = Flask(__name__, static_url_path='', static_folder='staticpages')
 
-
-#@app.route('/')
-#def index():
-    #console.log(findy(25))
-#    return app.send_static_file('home.html')
 # Add root route.
 @app.route("/")
 def home():
-  return app.send_static_file('index.html')
+    return app.send_static_file('index.html')
+
 
 # Add uniform route.
 @app.route('/api/linear/<name>')
